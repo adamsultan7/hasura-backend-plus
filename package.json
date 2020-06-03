@@ -7,6 +7,9 @@
   },
   "version": "2.0.0",
   "main": "src/start.ts",
+  "engines": {
+    "node": "12.16.x"
+  },
   "scripts": {
     "dev": "ts-node-dev -r tsconfig-paths/register --no-notify src/start.ts",
     "dev:docker": "ts-node-dev -r tsconfig-paths/register --no-deps --respawn --poll --interval 1000 --no-notify src/start.ts",
